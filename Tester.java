@@ -8,10 +8,11 @@ import org.springframework.core.io.ClassPathResource;
 
 public class Tester {
 	public static void main(String[] args) {	
-		ApplicationContext a=new ClassPathXmlApplicationContext("sample/MyConfi.xml");
+		ApplicationContext a=new ClassPathXmlApplicationContext("sample/Config.xml");
 		Car car1=(Car)a.getBean("car");
-		System.out.println(car1
-				);
+		System.out.println(car1);
+//		Car car2=(Car)a.getBean("car");
+//		System.out.println(car2);
 	}
 	
 }

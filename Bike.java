@@ -1,5 +1,5 @@
 package sample;
 
-public class Bike {
-
+public class Bike
+{
 }
